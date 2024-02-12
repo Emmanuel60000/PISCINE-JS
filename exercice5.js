@@ -2,7 +2,7 @@
 
 let chaine = "Je suis une chaine de caractères j";
 
-// Utiliser /[a]/gi pour compter toutes les occurrences de 'a' (insensible à la casse)
+// Utilisation de /[a]/gi pour compter toutes les occurrences de 'a' 
 let resultat = chaine.match(/[j]/gi);
 
 

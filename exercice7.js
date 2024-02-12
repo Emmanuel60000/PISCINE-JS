@@ -4,7 +4,7 @@ let mot = "radar";
 
 let motEnMinuscules = mot.toLowerCase();
 
-// Inverser le mot
+// mot inverser
 let motInverse = motEnMinuscules.split('').reverse().join('');
 
 let estPalindrome = motEnMinuscules === motInverse;
